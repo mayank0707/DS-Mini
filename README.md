@@ -8,8 +8,12 @@ BST has been implemented.
 To be done:
 
 Add instructions on starting page.
+
 Ask user if he wants to play y->play game n->exit
+
 Add more qyestions.
+
 Clear the screen for every question.
+
 "Quiz" should be visible at the top at all times
 
