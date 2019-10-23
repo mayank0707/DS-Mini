@@ -1,7 +1,10 @@
 # DS-Mini
 Quiz game using BST.
+
 BST has already been implemented.
+
 Read the code and understand what everyfunction does. 
+
 Comments have been placed wherever neccessary.
 
 
