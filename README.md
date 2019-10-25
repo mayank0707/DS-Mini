@@ -22,3 +22,5 @@ Clear the screen for every question.
 
 "Quiz" should be visible at the top at all times
 
+Tell the right answer as well
+
