@@ -24,3 +24,5 @@ Clear the screen for every question.
 
 Tell the right answer as well
 
+Add a 10s timer
+
