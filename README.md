@@ -26,3 +26,5 @@ Tell the right answer as well
 
 Add a 10s timer
 
+Add score in circle.
+
