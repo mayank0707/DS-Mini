@@ -12,19 +12,8 @@ Comments have been placed wherever neccessary.
 
 To be done:
 
-Add instructions on starting page.
-
-Ask user if he wants to play y->play game n->exit
-
 Add more questions.
-
-Clear the screen for every question.
-
-"Quiz" should be visible at the top at all times
 
 Tell the right answer as well
 
-Add a 10s timer
-
-Add score in circle.
 
