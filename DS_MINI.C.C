@@ -8,12 +8,12 @@
 
 int score = 0;
 
-void delay(int milsec)               //Adds a delay. Takes milliseconds as input
+/*void delay(int milsec)               //Adds a delay. Takes milliseconds as input
 {
      int start = clock();
      while(clock() < start + milsec);
         
-}
+}*/
 
 // #######################  ClearScreen  ##################################
 
@@ -28,15 +28,15 @@ void ClearScreen()
 // #######################  Instructions Page  #########################
 char instructions()
 {
+	char ch;
+	
 	ClearScreen();
 
-	char ch;
-
-	printf("\n\n\t\t\t\t INSTRUCTIONS ")
-	printf("\n\t\t\t 1. Quiz contains total 10 Questions");
-	printf("\n\t\t\t 2. Each Question has 4 options in which one is correct.");
-	printf("\n\t\t\t 3. Each question has a defined Rating which tells its difficulty level.");
-	printf("\n\t\t\t 4. Each correct answer is rewarded with +1 and wrong -1.");
+	printf("\n\n\t\t\t\t INSTRUCTIONS ");
+	printf("\n\t  1. Quiz contains total 10 Questions");
+	printf("\n\t  2. Each Question has 4 options in which one is correct.");
+	printf("\n\t  3. Each question has a defined Rating which tells its difficulty level.");
+	printf("\n\t  4. Each correct answer is rewarded with +1 and wrong -1.");
 
 
 	printf("\n\n\n\n\t\t\t\t Wants to Play the Quiz(Y/N).");
@@ -169,7 +169,7 @@ int main()
 
 	char ch = instructions();
 
-	if(ch=='Y')
+	if(ch=='Y' || ch=='y')
     {	run(root);
     	printf("\n\nYour score is : %d",score);
     }
