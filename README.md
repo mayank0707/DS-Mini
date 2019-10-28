@@ -14,6 +14,5 @@ To be done:
 
 Add more questions.
 
-Tell the right answer as well
 
 
