@@ -125,6 +125,7 @@ void run(struct Node *root)
 		{
 		    score--;
 		    printf("Wrong answer    :(");
+		    printf("\n\nThe right answer was option %d\n",root->key);
 		    getch();
 		    run(root->left);
 		}
