@@ -156,7 +156,7 @@ root = create(ques,'C',option1,option2,option3,option4,10);
     strcpy(option2,"B.  11");
     strcpy(option3,"C.  12");
     strcpy(option4,"D.  9");
-    ptr = create(ques,'B',option1,option2,option3,option4,0);
+    ptr = create(ques,'B',option1,option2,option3,option4,5);
 root = insert( root, ptr );
 
     strcpy(ques,"How many planets are in our solar syatem?");
@@ -164,7 +164,7 @@ root = insert( root, ptr );
     strcpy(option2,"B.  8");
     strcpy(option3,"C.  10");
     strcpy(option4,"D.  7");
-    ptr = create(ques,'A',option1,option2,option3,option4,1);
+    ptr = create(ques,'A',option1,option2,option3,option4,15);
 root = insert( root, ptr );
 
     strcpy(ques,"In which of the following decades did Hiroshima and Nagasaki bombing incident happen?");
@@ -172,7 +172,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) 1940s");
     strcpy(option3,"C) 1950s");
     strcpy(option4,"D) 1960s");
-    ptr = create(ques,'B',option1,option2,option3,option4,1);
+    ptr = create(ques,'B',option1,option2,option3,option4,3);
 root = insert( root, ptr );
     
     strcpy(ques,"Which of the following european countries did NOT participate in World War 2?");
@@ -180,7 +180,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) Hungary");
     strcpy(option3,"C) Sweden");
     strcpy(option4,"D) Bulgaria");
-    ptr = create(ques,'C',option1,option2,option3,option4,3);
+    ptr = create(ques,'C',option1,option2,option3,option4,7);
 root = insert( root, ptr );
     
     strcpy(ques,"In which of the following countries, Google Maps is NOT banned?");
@@ -188,7 +188,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) North Korea");
     strcpy(option3,"C) Syria");
     strcpy(option4,"D) Ireland");
-    ptr = create(ques,'D',option1,option2,option3,option4,5);
+    ptr = create(ques,'D',option1,option2,option3,option4,13);
 root = insert( root, ptr );
 
     strcpy(ques,"Which one of following Indians was never elected to become India's Prime Minister?");
@@ -196,7 +196,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) Rajiv Gandhi");
     strcpy(option3,"C) A.P.J. Abdul Kalam");
     strcpy(option4,"D) Indira Gandhi");
-    ptr = create(ques,'C',option1,option2,option3,option4,4);
+    ptr = create(ques,'C',option1,option2,option3,option4,17);
 root = insert( root, ptr );
 
     strcpy(ques,"Name the CEO of Intel company.");
@@ -204,7 +204,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) Tim Cook");
     strcpy(option3,"C) Michael Scott");
     strcpy(option4,"D) John Browett");
-    ptr = create(ques,'A',option1,option2,option3,option4,3);
+    ptr = create(ques,'A',option1,option2,option3,option4,1);
 root = insert( root, ptr );
 
     strcpy(ques,"Who discovered oxygen?");
@@ -220,7 +220,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) 1965");
     strcpy(option3,"C) 1975");
     strcpy(option4,"D) 1985");
-    ptr = create(ques,'B',option1,option2,option3,option4,5);
+    ptr = create(ques,'B',option1,option2,option3,option4,6);
 root = insert( root, ptr );
 
     strcpy(ques,"In which year did the popular Indian singer Arijit Singh start his music career?");
@@ -228,7 +228,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) 2007");
     strcpy(option3,"C) 2010");
     strcpy(option4,"D) 2013");
-    ptr = create(ques,'B',option1,option2,option3,option4,6);
+    ptr = create(ques,'B',option1,option2,option3,option4,8);
 root = insert( root, ptr );
 
     strcpy(ques,"In which decade did the classic music composer named Ludwig van Beethoven die?");
@@ -236,7 +236,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) 1810s");
     strcpy(option3,"C) 1820s");
     strcpy(option4,"D) 1830s");
-    ptr = create(ques,'C',option1,option2,option3,option4,6);
+    ptr = create(ques,'C',option1,option2,option3,option4,11);
 root = insert( root, ptr );
 
     strcpy(ques,"Which one of the following countries have NOT landed humans on moon yet?");
@@ -244,7 +244,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) United States");
     strcpy(option3,"C) Russia");
     strcpy(option4,"D) India");
-    ptr = create(ques,'D',option1,option2,option3,option4,7);
+    ptr = create(ques,'D',option1,option2,option3,option4,14);
 root = insert( root, ptr );
 
     strcpy(ques,"Which one of the countries has the largest population?");
@@ -252,7 +252,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) Brazil");
     strcpy(option3,"C) Nigeria");
     strcpy(option4,"D) Russia");
-    ptr = create(ques,'B',option1,option2,option3,option4,7);
+    ptr = create(ques,'B',option1,option2,option3,option4,16);
 root = insert( root, ptr );
 
     strcpy(ques,"Which one of the countries has the largest area covered?");
@@ -260,7 +260,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) United States");
     strcpy(option3,"C) Australia");
     strcpy(option4,"D) India");
-    ptr = create(ques,'A',option1,option2,option3,option4,8);
+    ptr = create(ques,'A',option1,option2,option3,option4,18);
 root = insert( root, ptr );
 
     strcpy(ques,"Which one of the countries has the smallest Gross Domestic Product(GDP)?");
@@ -268,7 +268,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) China");
     strcpy(option3,"C) United Kingdom");
     strcpy(option4,"D) Japan");
-    ptr = create(ques,'C',option1,option2,option3,option4,10);
+    ptr = create(ques,'C',option1,option2,option3,option4,0);
 root = insert( root, ptr );
 
     strcpy(ques,"Which one of the following countries is the most Biodiversed?");
@@ -276,7 +276,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) Brazil");
     strcpy(option3,"C) South Africa");
     strcpy(option4,"D) Thailand");
-    ptr = create(ques,'B',option1,option2,option3,option4,9);
+    ptr = create(ques,'B',option1,option2,option3,option4,1);
 root = insert( root, ptr );
 
     strcpy(ques,"Which one of the countries is the most densely populated?");
@@ -284,7 +284,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) Bangladesh");
     strcpy(option3,"C) Vatican City");
     strcpy(option4,"D) Hong Kong");
-    ptr = create(ques,'A',option1,option2,option3,option4,11);
+    ptr = create(ques,'A',option1,option2,option3,option4,3);
 root = insert( root, ptr );
 
     strcpy(ques,"Which one of the following languages is the most spoken?");
@@ -292,7 +292,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) Russian");
     strcpy(option3,"C) Arabic");
     strcpy(option4,"D) Mandarin");
-    ptr = create(ques,'D',option1,option2,option3,option4,11);
+    ptr = create(ques,'D',option1,option2,option3,option4,4);
 root = insert( root, ptr );
 
     strcpy(ques,"Which one of the following countries is the the most advanced in terms of technology?");
@@ -300,7 +300,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) India");
     strcpy(option3,"C) Germany");
     strcpy(option4,"D) Finland");
-    ptr = create(ques,'C',option1,option2,option3,option4,13);
+    ptr = create(ques,'C',option1,option2,option3,option4,5);
 root = insert( root, ptr );
 
     strcpy(ques,"Which one of the following animals is the largest in size?");
@@ -308,7 +308,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) Giraffe");
     strcpy(option3,"C) African Elephant");
     strcpy(option4,"D) Brown Bear");
-    ptr = create(ques,'A',option1,option2,option3,option4,13);
+    ptr = create(ques,'A',option1,option2,option3,option4,6);
 root = insert( root, ptr );
 
     strcpy(ques,"Which one of the following planets is the biggest in size?");
@@ -316,7 +316,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) Neptune");
     strcpy(option3,"C) Saturn");
     strcpy(option4,"D) Earth");
-    ptr = create(ques,'C',option1,option2,option3,option4,14);
+    ptr = create(ques,'C',option1,option2,option3,option4,7);
 root = insert( root, ptr );
 
     strcpy(ques,"Who invented telephone?");
@@ -324,7 +324,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) Alexander Graham Bell");
     strcpy(option3,"C) Hans Lippershey");
     strcpy(option4,"D) Jacob Metius");
-    ptr = create(ques,'B',option1,option2,option3,option4,14);
+    ptr = create(ques,'B',option1,option2,option3,option4,9);
 root = insert( root, ptr );
 
     strcpy(ques,"Who invented telescope?");
@@ -332,7 +332,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) Alexander Graham Bell");
     strcpy(option3,"C) Hans Lippershey");
     strcpy(option4,"D) Jacob Metius");
-    ptr = create(ques,'C',option1,option2,option3,option4,15);
+    ptr = create(ques,'C',option1,option2,option3,option4,10);
 root = insert( root, ptr );
 
     strcpy(ques,"Who invented Computer?");
@@ -340,7 +340,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) Zacharias Janssen");
     strcpy(option3,"C) Robert Hooke");
     strcpy(option4,"D) Charles Babbage");
-    ptr = create(ques,'D',option1,option2,option3,option4,19);
+    ptr = create(ques,'D',option1,option2,option3,option4,11);
 root = insert( root, ptr );
 
     strcpy(ques,"Who invented Dynamite?");
@@ -348,7 +348,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) Marie Curie");
     strcpy(option3,"C) Thomas Edison");
     strcpy(option4,"D) Albert Einstein");
-    ptr = create(ques,'A',option1,option2,option3,option4,15);
+    ptr = create(ques,'A',option1,option2,option3,option4,13);
 root = insert( root, ptr );
 
     strcpy(ques,"Which one of the following cities in India is the most polluted?");
@@ -356,7 +356,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) Kanpur");
     strcpy(option3,"C) Faridabad");
     strcpy(option4,"D) Lucknow");
-    ptr = create(ques,'B',option1,option2,option3,option4,16);
+    ptr = create(ques,'B',option1,option2,option3,option4,14);
 root = insert( root, ptr );
 
     strcpy(ques,"Which one of the cities is the most expensive in the world?");
@@ -364,7 +364,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) New York");
     strcpy(option3,"C) Osaka");
     strcpy(option4,"D) Singapore");
-    ptr = create(ques,'D',option1,option2,option3,option4,16);
+    ptr = create(ques,'D',option1,option2,option3,option4,15);
 root = insert( root, ptr );
 
     strcpy(ques,"Which one of the countries is the most educated in the world?");
@@ -372,7 +372,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) United States");
     strcpy(option3,"C) Canada");
     strcpy(option4,"D) Australia");
-    ptr = create(ques,'C',option1,option2,option3,option4,17);
+    ptr = create(ques,'C',option1,option2,option3,option4,16);
 root = insert( root, ptr );
 
     strcpy(ques,"Which one of the following animal species is the deadliest to humans?");
@@ -388,7 +388,7 @@ root = insert( root, ptr );
     strcpy(option2,"B) Jains");
     strcpy(option3,"C) Christians");
     strcpy(option4,"D) Hindus");
-    ptr = create(ques,'B',option1,option2,option3,option4,18);
+    ptr = create(ques,'B',option1,option2,option3,option4,19);
 root = insert( root, ptr );
 
     ch = instructions();
