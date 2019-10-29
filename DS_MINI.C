@@ -397,13 +397,10 @@ root = insert( root, ptr );
     {   run(root);
         clrscr();
         print_score(score);
-        getch();
-        return 0;
        }
 
     else
-    {   printf("\n\t\t\t\t Thanks for coming Here!");
-        getch();
-        return 0;
-    }
+    	printf("\n\t\t\t\t Thanks for coming Here!");
+getch();
+return 0;
 }
