@@ -7,7 +7,7 @@
 #include<graphics.h>
 
 int score = 0;
-void print_score(score)
+void print_score()
 {
 int gd=DETECT,gm;
 initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
@@ -375,7 +375,7 @@ root = insert( root, ptr );
 	if(ch=='Y'|| ch=='y')
 	{	run(root);
 		clrscr();
-		print_score(score);
+		print_score();
 	   }
 
     else
