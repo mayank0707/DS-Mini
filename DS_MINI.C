@@ -115,7 +115,7 @@ void run(struct Node *root)
 	printf("\t\t\t%s\n\n",root->option4);
         scanf( "  %c",&ans);
 
-        if(ans==root->key)
+        if(ans.toupper()==root->key)
         {   score+=5;
             printf("Right answer!   :)");
             getch();
