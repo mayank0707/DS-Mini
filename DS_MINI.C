@@ -104,7 +104,7 @@ void run(struct Node *root)
     if(root)
     {
         ClearScreen();             // Clear Screen for every NEW Question.
-        printf("\n\n\t\t\t%s\n\n",root->Quest);
+        printf("\n\n\t%s\n\n",root->Quest);
         delay(1000);
 	printf("\t\t%s",root->option1);
 	delay(1000);
